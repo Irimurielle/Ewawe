@@ -1,6 +1,7 @@
 package com.example.ewawe.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.ewawe.BuildingActivity;
 import com.example.ewawe.R;
 import com.example.ewawe.model.CategoryItem;
 
@@ -34,6 +36,14 @@ public class CategoryItemRecyclerAdapter extends RecyclerView.Adapter<CategoryIt
     public void onBindViewHolder(@NonNull CategoryItemViewHolder holder, int position) {
 
         holder.itemImage.setImageResource(categoryItemList.get(position).getImageUrl());
+        holder.itemImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, BuildingActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

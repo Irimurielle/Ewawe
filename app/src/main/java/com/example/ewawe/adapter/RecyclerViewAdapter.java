@@ -44,10 +44,15 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         return categoriesList.size();
     }
 
+    public interface RecyclerViewClickListener{
+        void onClick(View v, int position);
+    }
+
     public static final class RecyclerViewHolder extends RecyclerView.ViewHolder{
 
         TextView title;
         RecyclerView itemRecycler;
+        private RecyclerViewClickListener listener;
 
         public RecyclerViewHolder(@NonNull View itemView){
             super(itemView);
@@ -55,7 +60,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             title = itemView.findViewById(R.id.cat_title);
             itemRecycler = itemView.findViewById(R.id.item_recycler);
         }
-
     }
 
     private void setCatItemRecycler(RecyclerView recyclerView, List<CategoryItem> categoryItemList){

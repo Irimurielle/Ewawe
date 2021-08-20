@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/button.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/button1.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/card.xml" value="0.19537037037037036" />
         <entry key="app/src/main/res/drawable/dashboard.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_right_alt_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_home1.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/logo.xml" value="0.828125" />
         <entry key="app/src/main/res/drawable/navbar.xml" value="0.209375" />
@@ -16,15 +20,21 @@
         <entry key="app/src/main/res/drawable/shape.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/splash.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/splashscreen.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/activity_building.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_contract.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.21" />
         <entry key="app/src/main/res/layout/activity_dashboard2.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_properties.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_reset_password.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_services.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/building.xml" value="0.22" />
         <entry key="app/src/main/res/layout/category_row_items.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/contract.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/hii.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/invoice.xml" value="0.1" />
         <entry key="app/src/main/res/layout/photo.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/property.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/recyclerview_row_item.xml" value="0.23703703703703705" />

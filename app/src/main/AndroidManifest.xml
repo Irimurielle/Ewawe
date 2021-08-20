@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".BuildingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ContractActivity"
+            android:exported="true" />
+        <activity
             android:name=".PropertiesActivity"
             android:exported="true" />
         <activity
